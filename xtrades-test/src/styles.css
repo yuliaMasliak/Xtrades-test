@@ -4,11 +4,15 @@ html {
 
 body {
   height: 1118px;
-  width: 100%;
   margin: 0;
   padding: 0;
   background: #000000;
   background-image: url('./assets/dots.svg');
   background-repeat: unset;
   background-size: cover;
+}
+@media screen and (max-width: 500px) {
+  body {
+    height: 818px;
+  }
 }
