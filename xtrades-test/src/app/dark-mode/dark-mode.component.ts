@@ -5,4 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './dark-mode.component.html',
   styleUrls: ['./dark-mode.component.css']
 })
-export class DarkModeComponent {}
+export class DarkModeComponent {
+  burger: boolean = false;
+
+  toggleBurgerMenu() {
+    this.burger = !this.burger;
+  }
+}
