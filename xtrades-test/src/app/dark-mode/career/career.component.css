@@ -1,0 +1,324 @@
+.container-login {
+  max-width: 1440px;
+  height: 1118px;
+  margin: 0px auto;
+}
+.top-bar {
+  display: flex;
+  height: 88px;
+  padding-left: 24px;
+  padding-right: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-bar_block {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 115px;
+  height: 32px;
+}
+.home-link {
+  margin-left: 48px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main {
+  background-image: black;
+  height: 822px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 47px;
+  margin: 0px auto;
+  width: 780px;
+}
+.main_content {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-small {
+  margin-top: 359px;
+  margin-bottom: 32px;
+}
+.main_content__discord {
+  display: flex;
+  width: 280px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(0deg, #5865f2 0%, #5865f2 100%), #81edb9;
+  box-shadow: 0px 5px 10px 0px rgba(0, 165, 234, 0.18);
+  padding: 12px 32px;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: -0.3px;
+  color: white;
+  cursor: pointer;
+}
+.main_content__gmail {
+  display: flex;
+  width: 280px;
+  height: 48px;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #81edb9;
+  color: #082618;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: -0.3px;
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.main_content__discord:hover {
+  transition: all 0.4s;
+  box-shadow: #1a4092d8 0px 30px 60px -12px inset,
+    #3f387ed5 0px 18px 36px -18px inset;
+}
+.main_content__gmail:hover {
+  transition: all 0.4s;
+  box-shadow: #0d8155b0 0px 30px 60px -12px inset,
+    #04e08cb0 0px 18px 36px -18px inset;
+}
+.footer {
+  height: 46px;
+  padding-top: 162px;
+}
+.footer_logo {
+  margin: 0px auto;
+  text-align: center;
+}
+.top-bar_block-mob {
+  display: none;
+}
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 396px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 269px;
+  height: 744px;
+  background-color: black;
+  padding: 53px 0px 21px 21px;
+}
+.burger-block {
+  display: flex;
+  flex-direction: column;
+}
+.burger-overlay {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 812px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(1, 13, 26, 0.8) 40.38%,
+    rgba(2, 16, 31, 0.2) 100%
+  );
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+}
+.burger {
+  display: none;
+}
+.burger-logo {
+  width: 84.88px;
+}
+.burger-link {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.burger-link_home {
+  margin-top: 50px;
+  margin-bottom: 24px;
+}
+.burger_membership-btn_background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#04e08a, #05cef2);
+  border-radius: 13px;
+  margin-right: 10px;
+  height: 49px;
+  width: 239px;
+}
+.burger_membership-btn {
+  padding-left: 15px;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 47px;
+  width: 237px;
+  border-radius: 13px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: #04e08a;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.burger_membership-btn:hover {
+  transition: all 0.3s;
+  box-shadow: #04e08c36 0px 30px 60px -12px inset,
+    #04e08c2d 0px 18px 36px -18px inset;
+  background-color: rgba(0, 0, 0, 0.897);
+}
+.burger_login-btn {
+  padding-left: 15px;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 13px;
+  border: 0.5px solid rgba(255, 255, 255, 0.4);
+  background: linear-gradient(45deg, #81edb9, #c2f0ed);
+  width: 239px;
+  height: 49px;
+  color: #103366;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.burger_login-btn:hover {
+  transition: all 0.3s;
+  box-shadow: #0d8155b0 0px 30px 60px -12px inset,
+    #04e08cb0 0px 18px 36px -18px inset;
+}
+.burger_bottom-links {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 13px;
+}
+.burger_bottom-links a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+}
+.burger_copyright {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.5;
+}
+@media screen and (max-width: 550px) {
+  .container-login {
+    height: 812px;
+  }
+  .top-bar {
+    height: 90px;
+    padding: 0px;
+  }
+  .top-bar_block {
+    display: none;
+  }
+  .top-bar_block-mob,
+  .burger {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: -17px;
+    left: 10px;
+  }
+  .status-bar {
+    width: 328px;
+  }
+  .burger {
+    position: absolute;
+    top: 63px;
+    left: 23px;
+    cursor: pointer;
+  }
+  .main {
+    background-image: url('../../../assets/background-logo_mob.svg');
+    background-position-y: 20px;
+    height: 683px;
+  }
+  .logo-small {
+    margin-top: 155px;
+    margin-bottom: 72.9px;
+    width: 110px;
+  }
+  .main_content__discord,
+  .main_content__gmail {
+    width: 250px;
+    border-radius: 13px;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 15px 22px;
+  }
+  .main_content__gmail {
+    background: #303236;
+  }
+  span {
+    display: flex;
+    align-items: center;
+  }
+  .footer {
+    padding-top: 0px;
+  }
+  .footer img {
+    width: 110px;
+  }
+}
