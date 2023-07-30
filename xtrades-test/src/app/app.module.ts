@@ -3,18 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DarkModeComponent } from './dark-mode/dark-mode.component';
+import { HomeComponent } from './dark-mode/home/home.component';
+import { CareerComponent } from './dark-mode/career/career.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DarkModeComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, HomeComponent, CareerComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
