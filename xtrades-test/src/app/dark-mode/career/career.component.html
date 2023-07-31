@@ -42,7 +42,8 @@
             ><a
               class="main-content_block__item__link"
               href="#"
-              >Film Editor and Creator for Trading Content</a
+              >Film Editor and Creator for<br />
+              Trading Content</a
             ></div
           >
           <div class="main-content_block__item"
@@ -60,7 +61,8 @@
             <div class="main-content_block-text">
               <div class="main-content_block-text_item">
                 <div class="block-text_item-title"
-                  >Hiring a Film Editor and Creator for Trading Content</div
+                  >Hiring a Film Editor and Creator for <br />
+                  Trading Content</div
                 >
                 <div class="subtitle">
                   We're looking to increase our exposure on social media, by
@@ -74,77 +76,93 @@
                   ><li>Compensation is negotiable (DM to discuss)</li
                   ><li>Become a Partner</li>
                 </ul>
+                <div class="block-text_item-title-2"
+                  >Skills Needed (Most Important to Least Important)</div
+                >
+                <ul>
+                  <li>Short Form Video Editing </li
+                  ><li>Lighting and Content Creation Setting Management</li
+                  ><li>Videography</li>
+                  <li>Photography</li>
+                  <li>Longform Video Editing</li>
+                </ul>
               </div>
-              <div class="main-content_block-text_item"></div>
-              <div class="main-content_block-text_item"></div></div
-          ></div>
+              <div class="main-content_block-text_item2">
+                <div class="main-content_block-text_item2_text"
+                  >Contact us at kevin@xtrades.net and include information about
+                  your previous works and experience to set up an
+                  interview.</div
+                ><button class="contact-us">contact us now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer_logo">
+          <img
+            src="../../../assets/logo-footer.svg"
+            alt="logo"
+          />
         </div>
       </div>
     </div>
-    <div class="footer">
-      <div class="footer_logo">
-        <img
-          src="../../../assets/logo-footer.svg"
-          alt="logo"
-        />
-      </div>
+  </div>
+
+  <!-- Burger -->
+
+  <div
+    *ngIf="burger === true"
+    class="burger-menu"
+  >
+    <div class="burger-block">
+      <img
+        src="../../../assets/logo-sidebar.png"
+        alt="logo"
+        class="burger-logo"
+      />
+      <a
+        href="http:#"
+        class="burger-link burger-link_home"
+        >Home</a
+      >
+      <a
+        href="http:#"
+        class="burger-link"
+        (click)="toCareer()"
+        >Career</a
+      >
     </div>
-  </div>
-</div>
-
-<!-- Burger -->
-
-<div
-  *ngIf="burger === true"
-  class="burger-menu"
->
-  <div class="burger-block">
-    <img
-      src="../../../assets/logo-sidebar.png"
-      alt="logo"
-      class="burger-logo"
-    />
-    <a
-      href="http:#"
-      class="burger-link burger-link_home"
-      >Home</a
-    >
-    <a
-      href="http:#"
-      class="burger-link"
-      (click)="toCareer()"
-      >Career</a
-    >
-  </div>
-  <div class="burger-block">
-    <div class="burger_membership-btn_background"
-      ><button class="burger_membership-btn"
-        ><span>Membership</span
+    <div class="burger-block">
+      <div class="burger_membership-btn_background"
+        ><button class="burger_membership-btn"
+          ><span>Membership</span
+          ><span
+            ><img
+              src="../../../assets/arrow-green.png"
+              alt="arrow" /></span></button
+      ></div>
+      <button class="burger_login-btn"
+        ><span>Login</span
         ><span
           ><img
-            src="../../../assets/arrow-green.png"
-            alt="arrow" /></span></button
-    ></div>
-    <button class="burger_login-btn"
-      ><span>Login</span
-      ><span
-        ><img
-          src="../../../assets/arrow-blue.svg"
-          alt="arrow" /></span
-    ></button>
-    <div class="burger_bottom-links">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Refund Policy</a>
-      <a href="#">Terms & Conditions</a>
-    </div>
+            src="../../../assets/arrow-blue.svg"
+            alt="arrow" /></span
+      ></button>
+      <div class="burger_bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
 
-    <div class="burger_copyright"
-      >© Copyright 2022 - Xtrades. All rights reserved.</div
-    >
+      <div class="burger_copyright"
+        >© Copyright 2022 - Xtrades. All rights reserved.</div
+      >
+    </div>
   </div>
+  <div
+    *ngIf="burger === true"
+    class="burger-overlay"
+    (click)="toggleBurgerMenu()"
+  ></div>
 </div>
-<div
-  *ngIf="burger === true"
-  class="burger-overlay"
-  (click)="toggleBurgerMenu()"
-></div>

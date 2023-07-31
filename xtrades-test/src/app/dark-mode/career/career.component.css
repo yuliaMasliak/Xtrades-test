@@ -93,7 +93,7 @@
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 47px;
-  margin: 0px auto;
+  margin-left: 231px;
   width: 780px;
 }
 .title {
@@ -101,7 +101,7 @@
   font-family: Poppins;
   font-size: 36px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: normal;
   margin-top: 18px;
   margin-bottom: 32px;
@@ -131,7 +131,7 @@
   display: flex;
   align-items: center;
   height: 82px;
-  width: 250px;
+  width: 200px;
   border-top: 1px solid rgba(43, 46, 48, 1);
   color: #fff;
   font-family: Poppins;
@@ -166,15 +166,30 @@
 }
 
 .main-content_block-text {
-  padding-left: 35.5px;
-  width: 485px;
-  height: 678px;
+  height: 648px;
+  padding-top: 30px;
+  width: 520.5px;
   background-color: rgba(255, 255, 255, 0.1);
   border-top-right-radius: 13px;
   border-bottom-right-radius: 13px;
   border: 1px solid rgba(255, 255, 255, 0.116);
 }
-
+.main-content_block-text_item {
+  height: 568px;
+  padding-left: 35.5px;
+}
+.main-content_block-text_item2 {
+  border-top: 1px solid rgba(255, 255, 255, 0.116);
+  display: flex;
+  padding-left: 35.5px;
+  color: #ccc;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  height: 112px;
+}
 .block-text_item-title {
   color: #fff;
   font-family: Poppins;
@@ -182,7 +197,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-top: 30px;
   margin-bottom: 17px;
 }
 .main-content_block-text_item ul {
@@ -204,7 +218,38 @@
   line-height: 24px;
   margin-bottom: 12px;
 }
-
+.block-text_item-title-2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+.main-content_block-text_item2_text {
+  width: 225px;
+  margin-right: 69px;
+}
+.contact-us {
+  width: 160px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 0.5px solid rgba(255, 255, 255, 0.4);
+  background: var(--grad-2, linear-gradient(152deg, #81edb9 0%, #c2f0ed 100%));
+  color: #082618;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  justify-content: center;
+}
 .footer {
   height: 46px;
   padding-top: 162px;
