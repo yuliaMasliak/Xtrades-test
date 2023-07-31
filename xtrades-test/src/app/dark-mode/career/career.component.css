@@ -261,11 +261,12 @@
   color: #81edba;
 }
 .footer {
-  height: 190px;
+  height: 170px;
   background: #14171a;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 26px;
 }
 .footer__block {
   width: 961px;
@@ -275,7 +276,7 @@
 }
 .footer__block1 {
   display: flex;
-  gap: 32px;
+  gap: 36px;
 }
 .footer__block1 ul {
   display: inline-flex;
@@ -288,6 +289,7 @@
   font-weight: 400;
   line-height: 22px;
   padding-left: 0px;
+  margin: 0px;
 }
 .footer .copyright {
   color: #fff;
