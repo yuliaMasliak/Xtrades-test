@@ -318,7 +318,7 @@
   display: flex;
   gap: 10px;
 }
-.burger-menu {
+/* .burger-menu {
   display: flex;
   flex-direction: column;
   gap: 396px;
@@ -523,4 +523,4 @@
   .footer img {
     width: 110px;
   }
-}
+} */
