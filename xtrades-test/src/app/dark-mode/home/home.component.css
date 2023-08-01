@@ -45,6 +45,10 @@
 .career-link {
   margin-left: 28px;
 }
+.home-link:hover,
+.career-link:hover {
+  color: #05f2cb;
+}
 .membership-btn_background {
   display: flex;
   justify-content: center;

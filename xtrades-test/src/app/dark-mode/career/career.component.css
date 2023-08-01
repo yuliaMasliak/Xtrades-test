@@ -31,6 +31,9 @@
   text-decoration: none;
   cursor: pointer;
 }
+.home-link:hover {
+  color: #05f2cb;
+}
 .membership-btn_background {
   display: flex;
   justify-content: center;
@@ -245,7 +248,7 @@
   align-items: center;
   border-radius: 8px;
   border: 0.5px solid rgba(255, 255, 255, 0.4);
-  background: var(--grad-2, linear-gradient(152deg, #81edb9 0%, #c2f0ed 100%));
+  background: linear-gradient(152deg, #81edb9 0%, #c2f0ed 100%);
   color: #082618;
   text-align: center;
   font-family: Poppins;
@@ -257,6 +260,10 @@
   text-transform: uppercase;
   cursor: pointer;
   justify-content: center;
+}
+.contact-us:hover {
+  background: linear-gradient(152deg, #5ba883 0%, #81a7a4 100%);
+  transition: 0.4s;
 }
 .email-link {
   color: #81edba;
@@ -461,6 +468,9 @@
 .main_content-mob {
   display: none;
 }
+.arrow:hover {
+  color: #05f2cb;
+}
 @media screen and (max-width: 1270px) {
   .main-content_block-picture {
     display: none;
@@ -515,6 +525,9 @@
     position: relative;
     top: -17px;
     left: 10px;
+  }
+  .burger:hover {
+    color: #05f2cb;
   }
   .status-bar {
     width: 328px;
