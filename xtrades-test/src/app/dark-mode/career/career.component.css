@@ -1,6 +1,6 @@
 .container-career {
   max-width: 1440px;
-  height: 1118px;
+  min-height: 922px;
   margin: 0px auto;
 }
 .top-bar {
@@ -183,7 +183,7 @@
   border-top: 1px solid rgba(255, 255, 255, 0.116);
 }
 .main-content_block-text_item2 {
-  border-top: 1px solid rgba(255, 255, 255, 0.116);
+  border-top: 1px solid rgba(255, 255, 255, 0.041);
   display: flex;
   padding-left: 35.5px;
   color: #ccc;
@@ -277,7 +277,7 @@
   padding-top: 26px;
 }
 .footer__block {
-  max-width: 961px;
+  width: 961px;
   display: flex;
   flex-direction: column;
   gap: 36px;
@@ -285,6 +285,7 @@
 .footer__block1 {
   display: flex;
   gap: 36px;
+  justify-content: flex-start;
 }
 .footer__block1 ul {
   display: inline-flex;
@@ -471,6 +472,9 @@
 .arrow:hover {
   color: #05f2cb;
 }
+.footer__block1 li {
+  cursor: pointer;
+}
 @media screen and (max-width: 1270px) {
   .main-content_block-picture {
     display: none;
@@ -486,7 +490,7 @@
     gap: 0px;
   }
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1110px) {
   .main {
     margin: 0px auto;
     padding-right: 0px;
@@ -496,6 +500,9 @@
     flex-direction: column;
     max-width: 500px;
   }
+  .container-career {
+    margin-bottom: 200px;
+  }
   .main-content_block-text_item {
     height: fit-content;
   }
@@ -504,13 +511,20 @@
   }
   .main-content_block-text_item2 {
     flex-direction: column;
+    justify-content: center;
+    padding-left: 0px;
+    height: fit-content;
   }
   .main-content_block-text_item2_text {
     text-align: center;
+    margin: 0px auto;
   }
 }
 
 @media screen and (max-width: 830px) {
+  .container-career {
+    margin-bottom: 0px;
+  }
   .top-bar {
     height: 90px;
     padding: 0px;
@@ -548,6 +562,7 @@
   }
   .main {
     max-width: 333px;
+    height: 1011px;
   }
 
   .main_content {
@@ -593,9 +608,9 @@
   .active {
     visibility: visible;
   }
-  .main-content_mob-text {
+  /* .main-content_mob-text {
     border-top: 1px solid rgba(255, 255, 255, 0.041);
-  }
+  } */
   .main-content_block-text_item {
     padding: 18.5px 19px 10px 17px;
     background-color: #14171a;
