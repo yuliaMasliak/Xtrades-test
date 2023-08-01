@@ -608,9 +608,7 @@
   .active {
     visibility: visible;
   }
-  /* .main-content_mob-text {
-    border-top: 1px solid rgba(255, 255, 255, 0.041);
-  } */
+
   .main-content_block-text_item {
     padding: 18.5px 19px 10px 17px;
     background-color: #14171a;
