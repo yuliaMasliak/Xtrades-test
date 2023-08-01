@@ -1,5 +1,5 @@
-<div class="page-login">
-  <div class="container-login">
+<div class="page-career">
+  <div class="container-career">
     <div class="top-bar">
       <div class="top-bar_block">
         <img
@@ -66,8 +66,8 @@
                 >
                 <div class="subtitle">
                   We're looking to increase our exposure on social media, by
-                  creating more content (specificallyYoutube Videos + shorts and
-                  Reels on Instagram)</div
+                  creating more content (specifically Youtube Videos + shorts
+                  and Reels on Instagram)</div
                 >
                 <ul>
                   <li
@@ -103,59 +103,83 @@
           </div>
         </div>
       </div>
+      <div class="main_content-mob">
+        <div class="main-content_mob__item-container">
+          <div class="main-content_mob__item"
+            ><div>Film Editor and Creator for Trading Content</div
+            ><img
+              src="../../../assets/arrow-open.svg"
+              alt="arrow"
+              (click)="toggleDetails()"
+              [class.up]="details === 'active'"
+          /></div>
+          <div
+            class="main-content_mob-text"
+            [class.active]="details === 'active'"
+            [class.hidden]="details === 'hidden'"
+          >
+            <div class="main-content_block-text_item">
+              <div class="block-text_item-title"
+                >Hiring a Film Editor and<br />
+                Creator for Trading Content</div
+              >
+              <div class="subtitle">
+                We're looking to increase our exposure on social media, by
+                creating more content (specifically Youtube Videos + shorts and
+                Reels on Instagram)</div
+              >
+              <ul>
+                <li
+                  >You will be provided with Living rent free with me (Either in
+                  Los Angeles or New York,open to be discussed) </li
+                ><li>Compensation is negotiable (DM to discuss)</li
+                ><li>Become a Partner</li>
+              </ul>
+              <div class="block-text_item-title-2"
+                >Skills Needed (Most to Least Important)</div
+              >
+              <ul class="block-text_item-title-2_ul">
+                <li>Short Form Video Editing </li
+                ><li>Lighting and Content Creation Setting Management</li
+                ><li>Videography</li>
+                <li>Photography</li>
+                <li>Longform Video Editing</li>
+              </ul>
+            </div>
+            <div class="main-content_block-text_item2">
+              <div class="main-content_block-text_item2_text"
+                >Contact us at
+                <a
+                  href=""
+                  class="email-link"
+                  >kevin@xtrades.net</a
+                >
+                and include information about your previous works and experience
+                to set up an interview.</div
+              ><button class="contact-us">contact us now</button>
+            </div>
+            <div class="fake-margin"></div> </div
+        ></div>
+        <div class="main-content_mob__item-container">
+          <div class="main-content_mob__item"
+            ><div>Full Stack Principal Software Developer</div
+            ><img
+              src="../../../assets/arrow-open.svg"
+              alt="arrow" /></div
+        ></div>
+        <div class="main-content_mob__item-container">
+          <div class="main-content_mob__item"
+            ><div
+              >Sr Principal Software Engineer<br />
+              - C++ Programmer</div
+            ><img
+              src="../../../assets/arrow-open.svg"
+              alt="arrow"
+          /></div> </div
+      ></div>
     </div>
   </div>
-  <div class="footer">
-    <div class="footer__block">
-      <div class="footer__block1">
-        <ul
-          ><li
-            >Billing & General Support
-            <a
-              class="link-bold"
-              href=""
-              >hello@xtrades.net</a
-            ></li
-          ><li
-            >Los Angeles, CA 90028<br /><a
-              href=""
-              class="link-bold"
-              >1-530-723-5499</a
-            > </li
-          ><li>Terms & Conditions</li
-          ><li>Refund Policy</li
-          ><li>Privacy Policy</li></ul
-        >
-      </div>
-      <div class="footer__block2">
-        <div class="copyright"
-          >© Copyright 2022 - Xtrades. All rights reserved.</div
-        >
-        <div class="social-media">
-          <div class="social-media_item"
-            ><img
-              src="../../../assets/fb.svg"
-              alt="facebook-icon"
-          /></div>
-          <div class="social-media_item"
-            ><img
-              src="../../../assets/twt.svg"
-              alt="twitter-icon"
-          /></div>
-          <div class="social-media_item"
-            ><img
-              src="../../../assets/ig.svg"
-              alt="instagram-icon"
-          /></div>
-          <div class="social-media_item"
-            ><img
-              src="../../../assets/linked in.svg"
-              alt="linked-icon"
-          /></div>
-        </div>
-      </div>
-    </div>
-  </div>
+
   <!-- Burger -->
 
   <div
@@ -212,4 +236,56 @@
     class="burger-overlay"
     (click)="toggleBurgerMenu()"
   ></div>
+</div>
+
+<div class="footer">
+  <div class="footer__block">
+    <div class="footer__block1">
+      <ul
+        ><li
+          >Billing & General Support
+          <a
+            class="link-bold"
+            href=""
+            >hello@xtrades.net</a
+          ></li
+        ><li
+          >Los Angeles, CA 90028<br /><a
+            href=""
+            class="link-bold"
+            >1-530-723-5499</a
+          > </li
+        ><li>Terms & Conditions</li
+        ><li>Refund Policy</li
+        ><li>Privacy Policy</li></ul
+      >
+    </div>
+    <div class="footer__block2">
+      <div class="copyright"
+        >© Copyright 2022 - Xtrades. All rights reserved.</div
+      >
+      <div class="social-media">
+        <div class="social-media_item"
+          ><img
+            src="../../../assets/fb.svg"
+            alt="facebook-icon"
+        /></div>
+        <div class="social-media_item"
+          ><img
+            src="../../../assets/twt.svg"
+            alt="twitter-icon"
+        /></div>
+        <div class="social-media_item"
+          ><img
+            src="../../../assets/ig.svg"
+            alt="instagram-icon"
+        /></div>
+        <div class="social-media_item"
+          ><img
+            src="../../../assets/linked in.svg"
+            alt="linked-icon"
+        /></div>
+      </div>
+    </div>
+  </div>
 </div>

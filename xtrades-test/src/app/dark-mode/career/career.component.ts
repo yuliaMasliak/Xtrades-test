@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class CareerComponent {
   burger: boolean = false;
+  details: string = 'active';
 
   constructor(private route: Router) {}
 
@@ -16,5 +17,8 @@ export class CareerComponent {
   }
   toCareer() {
     this.route.navigate(['/home']);
+  }
+  toggleDetails() {
+    this.details = this.details === 'hidden' ? 'active' : 'hidden';
   }
 }
