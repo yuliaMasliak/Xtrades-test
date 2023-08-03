@@ -17,4 +17,7 @@ export class HomeComponent {
   toCareer() {
     this.route.navigate(['/career']);
   }
+  handleBurgerClose(value: boolean) {
+    this.burger = !value;
+  }
 }
