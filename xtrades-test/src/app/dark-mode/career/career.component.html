@@ -180,65 +180,7 @@
       ></div>
     </div>
   </div>
-
-  <!-- Burger -->
-
-  <div
-    *ngIf="burger === true"
-    class="burger-menu"
-  >
-    <div class="burger-block">
-      <img
-        src="../../../assets/logo-sidebar.png"
-        alt="logo"
-        class="burger-logo"
-      />
-      <a
-        href="http:#"
-        class="burger-link burger-link_home"
-        >Home</a
-      >
-      <a
-        href="http:#"
-        class="burger-link"
-        (click)="toCareer()"
-        >Career</a
-      >
-    </div>
-    <div class="burger-block">
-      <div class="burger_membership-btn_background"
-        ><button class="burger_membership-btn"
-          ><span>Membership</span
-          ><span
-            ><img
-              src="../../../assets/arrow-green.png"
-              alt="arrow" /></span></button
-      ></div>
-      <button class="burger_login-btn"
-        ><span>Login</span
-        ><span
-          ><img
-            src="../../../assets/arrow-blue.svg"
-            alt="arrow" /></span
-      ></button>
-      <div class="burger_bottom-links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Refund Policy</a>
-        <a href="#">Terms & Conditions</a>
-      </div>
-
-      <div class="burger_copyright"
-        >© Copyright 2022 - Xtrades. All rights reserved.</div
-      >
-    </div>
-  </div>
-  <div
-    *ngIf="burger === true"
-    class="burger-overlay"
-    (click)="toggleBurgerMenu()"
-  ></div>
 </div>
-
 <div class="footer">
   <div class="footer__block">
     <div class="footer__block1">
@@ -290,3 +232,13 @@
     </div>
   </div>
 </div>
+
+<!-- Burger -->
+<div *ngIf="burger === true">
+  <app-burger-menu (closedBurger)="handleBurgerClose($event)"></app-burger-menu>
+</div>
+<div
+  *ngIf="burger === true"
+  class="burger-overlay"
+  (click)="toggleBurgerMenu()"
+></div>

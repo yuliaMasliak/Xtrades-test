@@ -21,4 +21,7 @@ export class CareerComponent {
   toggleDetails() {
     this.details = this.details === 'hidden' ? 'active' : 'hidden';
   }
+  handleBurgerClose(value: boolean) {
+    this.burger = !value;
+  }
 }
